@@ -3,8 +3,11 @@
 //import Employees from "./components/functionalcomponent/buttoncomponent/state/state";
 //import Employees from "./components/functionalcomponent/buttoncomponent/state/dup";
 
+
+import NavigationStack from "./components/functionalcomponent/buttoncomponent/navigation/navigation";
+
 // import Controlledforms from "./components/functionalcomponent/buttoncomponent/controlledforms/controll";
-import AddPost from "./components/functionalcomponent/buttoncomponent/controlledforms/posts";
+// import AddPost from "./components/functionalcomponent/buttoncomponent/controlledforms/posts";
 
 // import Usestate from "./components/functionalcomponent/buttoncomponent/hooks/hooks";
 // import UseStateExmple3 from "./components/functionalcomponent/buttoncomponent/hooks/names";
@@ -21,10 +24,7 @@ import AddPost from "./components/functionalcomponent/buttoncomponent/controlled
 function App() {
   return (
    <div>
-   {/* <AccordationComponent></AccordationComponent>
-   <Products1></Products1> */}
-  {/* <Controlledforms></Controlledforms> */}
-  <AddPost></AddPost>
+   <NavigationStack></NavigationStack>
     </div>
   );
 }

@@ -1,0 +1,28 @@
+/* navigation.css */
+.navbar {
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .nav-item {
+    list-style: none;
+  }
+  
+  .nav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
